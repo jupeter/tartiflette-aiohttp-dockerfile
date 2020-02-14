@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 RUN apt-get update && apt-get install -y cmake bison flex rsync
 
-RUN pip install tartiflette-aiohttp==1.1.1
+RUN pip install tartiflette-aiohttp==1.2.0
 
 FROM python:3.7-alpine
 
